@@ -79,10 +79,35 @@ export default function Home() {
             Find what you can cook with your current harvest and unlock rare culinary combinations.
           </p>
         </div>
-        
+      </section>
 
+      {/* Featured Recipes */}
+      <section style={{ marginTop: '10px' }}>
 
-        <div className="flex items-center justify-center gap-4 pt-4">
+        {featuredRecipes.length > 0 ? (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {featuredRecipes.map(recipe => (
+              <RecipeCard key={recipe.id} recipe={recipe} />
+            ))}
+          </div>
+        ) : (
+          <Card className="p-12 text-center">
+            <div className="space-y-4">
+              <Sparkles className="h-16 w-16 mx-auto text-muted-foreground opacity-50" />
+              <div>
+                <h3 className="text-lg font-medium text-muted-foreground mb-2">Featured Recipes Coming Soon</h3>
+                <p className="text-sm text-muted-foreground max-w-md mx-auto">
+                  Featured recipes will appear here once data is loaded into the system.
+                </p>
+              </div>
+            </div>
+          </Card>
+        )}
+      </section>
+
+      {/* Navigation Buttons */}
+      <section className="text-center">
+        <div className="flex items-center justify-center gap-4">
           <Button asChild size="lg" className="gap-2">
             <Link href="/recipes">
               <ChefHat className="h-5 w-5" />
@@ -218,43 +243,7 @@ export default function Home() {
         </Card>
       </section>
 
-      {/* Featured Recipes */}
-      <section className="space-y-8">
-        <div className="flex items-center justify-between">
-          <div>
-            <h2 className="text-3xl font-bold">Featured Recipes</h2>
-            <p className="text-muted-foreground mt-2">
-              Discover our most popular and highest-rated recipes
-            </p>
-          </div>
-          <Button variant="ghost" asChild className="gap-2">
-            <Link href="/recipes">
-              View All
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </Button>
-        </div>
-        
-        {featuredRecipes.length > 0 ? (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredRecipes.map(recipe => (
-              <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
-          </div>
-        ) : (
-          <Card className="p-12 text-center">
-            <div className="space-y-4">
-              <Sparkles className="h-16 w-16 mx-auto text-muted-foreground opacity-50" />
-              <div>
-                <h3 className="text-lg font-medium text-muted-foreground mb-2">Featured Recipes Coming Soon</h3>
-                <p className="text-sm text-muted-foreground max-w-md mx-auto">
-                  Featured recipes will appear here once data is loaded into the system.
-                </p>
-              </div>
-            </div>
-          </Card>
-        )}
-      </section>
+
 
       {/* Recipe Categories */}
       <section className="space-y-8">

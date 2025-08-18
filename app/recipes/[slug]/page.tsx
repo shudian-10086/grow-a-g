@@ -55,14 +55,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function RecipeDetailPage({ params }: Props) {
-  // 尝试从动态数据获取，失败则使用静态数据
-  let recipes = DB.recipes
-  try {
-    const recipesData = require('../../../data/recipes.json')
-    recipes = recipesData
-  } catch (error) {
-    console.warn('Failed to load dynamic recipes data, using static data')
-  }
+  // 使用静态导入的数据，确保在服务端和客户端都能正常工作
+  const recipes = recipesData as any[]
   
   const recipe = recipes.find(r => r.id === params.slug)
   

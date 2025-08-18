@@ -5,6 +5,7 @@
     "category": "Main",
     "image": "/recipes-img/corn-dog.jpg",
     "description": "Classic hot dog with various toppings",
+    "cravings": ["comfort food", "hearty", "classic", "savory"],
     "variants": [
       {
         "rarity": "Mythical",
@@ -43,6 +44,7 @@
     "category": "Main",
     "image": "/recipes-img/spaghetti.jpg",
     "description": "Classic Italian pasta dish with various ingredient combinations",
+    "cravings": ["comfort food", "italian", "classic", "pasta", "hearty"],
     "variants": [
       {
         "rarity": "Legendary",
@@ -112,6 +114,7 @@
     "category": "Dessert",
     "image": "/recipes-img/candy-apple.jpg",
     "description": "Sweet candy-coated apple treat",
+    "cravings": ["sweet", "indulgent", "dessert", "fruity", "treat"],
     "variants": [
       {
         "rarity": "Legendary",
@@ -312,6 +315,7 @@
     "name": "Smoothie",
     "category": "Other",
     "description": "Blended fruit drink",
+    "cravings": ["healthy", "refreshing", "light", "fruity", "quick"],
     "variants": [
       {
         "rarity": "Uncommon",
@@ -394,6 +398,7 @@
     "name": "Salad",
     "category": "Main",
     "description": "Fresh vegetable salad",
+    "cravings": ["healthy", "light", "fresh", "vegetarian", "clean eating"],
     "variants": [
       {
         "rarity": "Common",
@@ -496,6 +501,7 @@
     "name": "Soup",
     "category": "Main",
     "description": "Warm and nourishing soup",
+    "cravings": ["comfort food", "warm", "cozy", "nourishing", "hearty"],
     "variants": [
       {
         "rarity": "VeryCommon",
