@@ -1,0 +1,1531 @@
+[
+  {
+    "id": "spaghetti",
+    "name": "Spaghetti",
+    "category": "Main",
+    "description": "Classic Italian pasta dish with various ingredient combinations",
+    "variants": [
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "bell-pepper", "qty": 1 },
+          { "id": "cauliflower", "qty": 1 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "cauliflower", "qty": 1 },
+          { "id": "jalapeno", "qty": 1 },
+          { "id": "bone-blossom", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "cauliflower", "qty": 1 },
+          { "id": "taco-fern", "qty": 1 },
+          { "id": "beanstalk", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "bone-blossom", "qty": 1 },
+          { "id": "beanstalk", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "cauliflower", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "banana", "qty": 1 },
+          { "id": "badlands-pepper", "qty": 1 },
+          { "id": "ember-lily", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "candy-apple",
+    "name": "Candy Apple",
+    "category": "Dessert",
+    "description": "Sweet candy-coated apple treat",
+    "variants": [
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "blueberry", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "giant-pinecone", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "sugarglaze", "qty": 2 },
+          { "id": "sugar-apple", "qty": 2 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "beanstalk", "qty": 1 },
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "giant-pinecone", "qty": 1 },
+          { "id": "bone-blossom", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "porridge",
+    "name": "Porridge",
+    "category": "Breakfast",
+    "description": "Warm and comforting breakfast dish",
+    "variants": [
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "cauliflower", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "lingonberry", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "banana", "qty": 2 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "sugarglaze", "qty": 2 },
+          { "id": "blood-banana", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "sugar-apple", "qty": 4 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "banana", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "sweet-tea",
+    "name": "Sweet Tea",
+    "category": "Other",
+    "description": "Refreshing sweetened tea beverage",
+    "variants": [
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "blueberry", "qty": 2 },
+          { "id": "serenity", "qty": 2 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "mint", "qty": 1 },
+          { "id": "pineapple", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "soft-sunshine", "qty": 1 },
+          { "id": "mango", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "serenity", "qty": 1 },
+          { "id": "mango", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "serenity", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "mango", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "rosy-delight", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "burning-bud", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 3 },
+          { "id": "burning-bud", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "burning-bud", "qty": 1 },
+          { "id": "sugar-apple", "qty": 2 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "smoothie",
+    "name": "Smoothie",
+    "category": "Other",
+    "description": "Blended fruit drink",
+    "variants": [
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "carrot", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "mango", "qty": 1 },
+          { "id": "peach", "qty": 1 },
+          { "id": "strawberry", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "apple", "qty": 3 },
+          { "id": "peach", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "elder-strawberry", "qty": 2 },
+          { "id": "blueberry", "qty": 1 },
+          { "id": "strawberry", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "coconut", "qty": 1 },
+          { "id": "elder-strawberry", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "grape", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 3 },
+          { "id": "pricklefruit", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 4 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "salad",
+    "name": "Salad",
+    "category": "Main",
+    "description": "Fresh vegetable salad",
+    "variants": [
+      {
+        "rarity": "Common",
+        "ingredients": [
+          { "id": "carrot", "qty": 3 },
+          { "id": "bamboo", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "orange-tulip", "qty": 1 },
+          { "id": "bamboo", "qty": 1 },
+          { "id": "carrot", "qty": 1 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "tomato", "qty": 2 },
+          { "id": "dragon-fruit", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "peach", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "jalapeno", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "cauliflower", "qty": 1 },
+          { "id": "bamboo", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "dragon-fruit", "qty": 1 },
+          { "id": "bamboo", "qty": 1 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 2 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 4 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 3 },
+          { "id": "giant-pinecone", "qty": 1 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 4 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "soup",
+    "name": "Soup",
+    "category": "Main",
+    "description": "Warm and nourishing soup",
+    "variants": [
+      {
+        "rarity": "VeryCommon",
+        "ingredients": [
+          { "id": "carrot", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Common",
+        "ingredients": [
+          { "id": "strawberry", "qty": 1 },
+          { "id": "peach", "qty": 1 },
+          { "id": "mango", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "coconut", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "coconut", "qty": 1 },
+          { "id": "dragon-fruit", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "green-apple", "qty": 1 },
+          { "id": "grape", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "coconut", "qty": 1 },
+          { "id": "elder-strawberry", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "grape", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "dragon-fruit", "qty": 1 }
+        ],
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "sandwich",
+    "name": "Sandwich",
+    "category": "Main",
+    "description": "Classic sandwich with various fillings",
+    "variants": [
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "carrot", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "artichoke", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "prickly-pear", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "beanstalk", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "loquat", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "avocado", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "bell-pepper", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 2 },
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "pie",
+    "name": "Pie",
+    "category": "Dessert",
+    "description": "Sweet or savory baked pie",
+    "variants": [
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "crown-melon", "qty": 1 },
+          { "id": "jalapeno", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "pumpkin", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "coconut", "qty": 1 },
+          { "id": "tomato", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "pumpkin", "qty": 1 },
+          { "id": "dragon-fruit", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "pumpkin", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "cactus", "qty": 1 },
+          { "id": "cacao", "qty": 1 },
+          { "id": "pumpkin", "qty": 1 },
+          { "id": "peach", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "pumpkin", "qty": 1 },
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "green-apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "coconut", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Can use Beanstalk instead of Ember Lily"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 4 },
+          { "id": "pumpkin", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 4 },
+          { "id": "pumpkin", "qty": 1 }
+        ],
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "burger",
+    "name": "Burger",
+    "category": "Main",
+    "description": "Hearty burger with various toppings",
+    "variants": [
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "pepper", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "mint", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "carrot", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "ember-lily", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "beanstalk", "qty": 1 },
+          { "id": "cactus", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "pepper", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "onion", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "bone-blossom", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "pepper", "qty": 1 },
+          { "id": "cactus", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "bell-pepper", "qty": 2 },
+          { "id": "jalapeno", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "pepper", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "bone-blossom", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "bell-pepper", "qty": 3 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "sugarglaze", "qty": 1 },
+          { "id": "sunflower", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "pepper", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "taco-fern", "qty": 2 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "ember-lily", "qty": 2 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "cauliflower", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "category": "Main",
+    "description": "Classic hot dog with various toppings",
+    "variants": [
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "pepper", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "bamboo", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "pepper", "qty": 2 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "lucky-bamboo", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "elder-strawberry", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "pepper", "qty": 3 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 4 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 4 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "waffle",
+    "name": "Waffle",
+    "category": "Breakfast",
+    "description": "Crispy waffle with sweet toppings",
+    "variants": [
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "coconut", "qty": 1 },
+          { "id": "strawberry", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "peach", "qty": 1 },
+          { "id": "coconut", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "coconut", "qty": 1 },
+          { "id": "peach", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "coconut", "qty": 1 },
+          { "id": "mango", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "coconut", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "sugarglaze", "qty": 1 },
+          { "id": "bone-blossom", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "coconut", "qty": 2 },
+          { "id": "sugar-apple", "qty": 3 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "coconut", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "ice-cream",
+    "name": "Ice Cream",
+    "category": "Dessert",
+    "description": "Cold and creamy frozen dessert",
+    "variants": [
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "blueberry", "qty": 1 },
+          { "id": "strawberry", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "strawberry", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "jalapeno", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "watermelon", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "blueberry", "qty": 1 },
+          { "id": "banana", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "banana", "qty": 1 },
+          { "id": "watermelon", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "banana", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "banana", "qty": 1 },
+          { "id": "crown-melon", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "banana", "qty": 1 },
+          { "id": "prickly-pear", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "mango", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "banana", "qty": 1 },
+          { "id": "pepper", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "banana", "qty": 1 },
+          { "id": "loquat", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "sugarglaze", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "sugar-apple", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "sugarglaze", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "banana", "qty": 1 },
+          { "id": "bone-blossom", "qty": 3 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "sugarglaze", "qty": 1 },
+          { "id": "bone-blossom", "qty": 4 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "donut",
+    "name": "Donut",
+    "category": "Dessert",
+    "description": "Sweet fried dough with various toppings",
+    "variants": [
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "tomato", "qty": 1 },
+          { "id": "strawberry", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "pineapple", "qty": 1 },
+          { "id": "blueberry", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "serenity", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "mango", "qty": 1 },
+          { "id": "banana", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "sugarglaze", "qty": 1 },
+          { "id": "sugar-apple", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "sugarglaze", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "peach", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 4 },
+          { "id": "sugarglaze", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "pepper", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "sugar-apple", "qty": 2 },
+          { "id": "peach", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 3 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 3 },
+          { "id": "banana", "qty": 1 },
+          { "id": "beanstalk", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  },
+  {
+    "id": "sushi",
+    "name": "Sushi",
+    "category": "Main",
+    "description": "Traditional Japanese rice dish",
+    "variants": [
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "bamboo", "qty": 4 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "apple", "qty": 1 },
+          { "id": "bamboo", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Can use Cauliflower instead of Apple"]
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "bamboo", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "cactus", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "ember-lily", "qty": 3 },
+          { "id": "bamboo", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 3 },
+          { "id": "bamboo", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Divine",
+        "ingredients": [
+          { "id": "bamboo", "qty": 1 },
+          { "id": "pepper", "qty": 1 },
+          { "id": "ember-lily", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 2 },
+          { "id": "elder-strawberry", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "bamboo", "qty": 1 }
+        ],
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "cake",
+    "name": "Cake",
+    "category": "Dessert",
+    "description": "Sweet layered cake for celebrations",
+    "variants": [
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "strawberry", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Uncommon",
+        "ingredients": [
+          { "id": "strawberry", "qty": 1 },
+          { "id": "carrot", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "watermelon", "qty": 2 },
+          { "id": "corn", "qty": 2 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "watermelon", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "daffodil", "qty": 1 },
+          { "id": "peach", "qty": 1 },
+          { "id": "apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "banana", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 1 },
+          { "id": "coconut", "qty": 1 },
+          { "id": "banana", "qty": 3 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Mythical",
+        "ingredients": [
+          { "id": "sugar-apple", "qty": 2 },
+          { "id": "celestiberry", "qty": 1 },
+          { "id": "pineapple", "qty": 1 },
+          { "id": "banana", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 3 },
+          { "id": "sugar-apple", "qty": 1 },
+          { "id": "banana", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "sugar-apple", "qty": 4 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 3 },
+          { "id": "beanstalk", "qty": 1 },
+          { "id": "banana", "qty": 1 }
+        ],
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "category": "Main",
+    "description": "Italian flatbread with various toppings",
+    "variants": [
+      {
+        "rarity": "Rare",
+        "ingredients": [
+          { "id": "strawberry", "qty": 1 },
+          { "id": "pepper", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "corn", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "corn", "qty": 1 },
+          { "id": "tomato", "qty": 1 },
+          { "id": "pepper", "qty": 1 },
+          { "id": "sugar-apple", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Legendary",
+        "ingredients": [
+          { "id": "jalapeno", "qty": 1 },
+          { "id": "corn", "qty": 1 },
+          { "id": "dragon-fruit", "qty": 1 },
+          { "id": "ember-lily", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Prismatic",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 3 },
+          { "id": "banana", "qty": 1 },
+          { "id": "beanstalk", "qty": 1 }
+        ],
+        "verified": true
+      },
+      {
+        "rarity": "Transcendent",
+        "ingredients": [
+          { "id": "bone-blossom", "qty": 3 },
+          { "id": "banana", "qty": 1 },
+          { "id": "beanstalk", "qty": 1 }
+        ],
+        "verified": true,
+        "notes": ["Swap variant"]
+      }
+    ]
+  }
+]

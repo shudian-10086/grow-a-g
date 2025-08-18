@@ -1,0 +1,12 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "2025-01-15",
+    "notes": [
+      "Initial data import with 18 recipe types",
+      "Added 50+ ingredients with rarity classifications",
+      "Implemented recipe variants system",
+      "Added support for swap variants and special notes"
+    ]
+  }
+]
