@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
@@ -7,11 +8,31 @@ import { SearchBox } from '@/components/SearchBox'
 import { RecipeCard } from '@/components/RecipeCard'
 import { DB } from '@/lib/data'
 import { ChefHat, Leaf, Heart, TrendingUp, Search, Sparkles, ArrowRight, Star, Clock, Users } from 'lucide-react'
+import type { Recipe } from '@/types/recipe'
 
 export default function Home() {
+  const [recipes, setRecipes] = useState<Recipe[]>(DB.recipes) // 初始使用静态数据
+  
+  // 动态获取最新数据
+  useEffect(() => {
+    const fetchRecipes = async () => {
+      try {
+        const response = await fetch('/data/recipes.json')
+        if (response.ok) {
+          const data = await response.json()
+          setRecipes(data)
+        }
+      } catch (error) {
+        console.warn('Failed to fetch latest recipes data for homepage, using static data:', error)
+      }
+    }
+    
+    fetchRecipes()
+  }, [])
+
   // Get featured recipes - highest rarity variants and popular ones
   const getFeaturedRecipes = () => {
-    return DB.recipes
+    return recipes
       .filter(recipe => recipe.variants.length > 0)
       .sort((a, b) => {
         // Sort by highest rarity variant
@@ -20,14 +41,14 @@ export default function Home() {
         const bHighestRarity = Math.max(...b.variants.map(v => rarityOrder.indexOf(v.rarity)))
         return bHighestRarity - aHighestRarity
       })
-      .slice(0, 20) // Show top 6 featured recipes
+      .slice(0, 12) // Show top 6 featured recipes
   }
 
   const featuredRecipes = getFeaturedRecipes()
 
   // Get category stats
   const categoryStats = ['Main', 'Dessert', 'Breakfast', 'Other'].map(category => {
-    const categoryRecipes = DB.recipes.filter(recipe => recipe.category === category)
+    const categoryRecipes = recipes.filter(recipe => recipe.category === category)
     return {
       name: category,
       count: categoryRecipes.length,
@@ -59,15 +80,7 @@ export default function Home() {
           </p>
         </div>
         
-        <div className="max-w-lg mx-auto">
-          <SearchBox 
-            placeholder="Search recipes and ingredients..."
-            onSearch={(query) => {
-              // Placeholder - would implement global search
-              console.log('Global search:', query)
-            }}
-          />
-        </div>
+
 
         <div className="flex items-center justify-center gap-4 pt-4">
           <Button asChild size="lg" className="gap-2">
@@ -93,7 +106,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mx-auto mb-4">
               <ChefHat className="h-8 w-8 text-green-600" />
             </div>
-            <div className="text-3xl font-bold text-green-800">{DB.recipes.length}</div>
+            <div className="text-3xl font-bold text-green-800">{recipes.length}</div>
             <div className="text-sm text-green-600 font-medium">Unique Recipes</div>
           </CardContent>
         </Card>

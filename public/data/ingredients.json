@@ -1,0 +1,308 @@
+[
+  {
+    "id": "corn",
+    "name": "Corn",
+    "type": "Grain",
+    "rarity": "Common"
+  },
+  {
+    "id": "bell-pepper",
+    "name": "Bell Pepper",
+    "type": "Vegetable",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "type": "Vegetable",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "type": "Vegetable",
+    "rarity": "Common"
+  },
+  {
+    "id": "jalapeno",
+    "name": "Jalapeño",
+    "type": "Vegetable",
+    "rarity": "Rare"
+  },
+  {
+    "id": "bone-blossom",
+    "name": "Bone Blossom",
+    "type": "Flower",
+    "rarity": "Mythical"
+  },
+  {
+    "id": "taco-fern",
+    "name": "Taco Fern",
+    "type": "Other",
+    "rarity": "Rare"
+  },
+  {
+    "id": "beanstalk",
+    "name": "Beanstalk",
+    "type": "Vegetable",
+    "rarity": "Legendary"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "type": "Fruit",
+    "rarity": "Common"
+  },
+  {
+    "id": "badlands-pepper",
+    "name": "Badlands Pepper",
+    "type": "Vegetable",
+    "rarity": "Rare"
+  },
+  {
+    "id": "ember-lily",
+    "name": "Ember Lily",
+    "type": "Flower",
+    "rarity": "Legendary"
+  },
+  {
+    "id": "sugar-apple",
+    "name": "Sugar Apple",
+    "type": "Fruit",
+    "rarity": "Mythical"
+  },
+  {
+    "id": "blueberry",
+    "name": "Blueberry",
+    "type": "Fruit",
+    "rarity": "Common"
+  },
+  {
+    "id": "giant-pinecone",
+    "name": "Giant Pinecone",
+    "type": "Other",
+    "rarity": "Divine"
+  },
+  {
+    "id": "sugarglaze",
+    "name": "Sugarglaze",
+    "type": "Other",
+    "rarity": "Prismatic"
+  },
+  {
+    "id": "lingonberry",
+    "name": "Lingonberry",
+    "type": "Fruit",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "Fruit",
+    "rarity": "Common"
+  },
+  {
+    "id": "blood-banana",
+    "name": "Blood Banana",
+    "type": "Fruit",
+    "rarity": "Rare"
+  },
+  {
+    "id": "serenity",
+    "name": "Serenity",
+    "type": "Flower",
+    "rarity": "Rare"
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "type": "Other",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "type": "Fruit",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "soft-sunshine",
+    "name": "Soft Sunshine",
+    "type": "Flower",
+    "rarity": "Legendary"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "type": "Fruit",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "rosy-delight",
+    "name": "Rosy Delight",
+    "type": "Flower",
+    "rarity": "Divine"
+  },
+  {
+    "id": "burning-bud",
+    "name": "Burning Bud",
+    "type": "Flower",
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "type": "Vegetable",
+    "rarity": "VeryCommon"
+  },
+  {
+    "id": "peach",
+    "name": "Peach",
+    "type": "Fruit",
+    "rarity": "Common"
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "type": "Fruit",
+    "rarity": "Common"
+  },
+  {
+    "id": "elder-strawberry",
+    "name": "Elder Strawberry",
+    "type": "Fruit",
+    "rarity": "Rare"
+  },
+  {
+    "id": "coconut",
+    "name": "Coconut",
+    "type": "Fruit",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "grape",
+    "name": "Grape",
+    "type": "Fruit",
+    "rarity": "Rare"
+  },
+  {
+    "id": "pricklefruit",
+    "name": "Pricklefruit",
+    "type": "Fruit",
+    "rarity": "Divine"
+  },
+  {
+    "id": "bamboo",
+    "name": "Bamboo",
+    "type": "Other",
+    "rarity": "Common"
+  },
+  {
+    "id": "orange-tulip",
+    "name": "Orange Tulip",
+    "type": "Flower",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "dragon-fruit",
+    "name": "Dragon Fruit",
+    "type": "Fruit",
+    "rarity": "Rare"
+  },
+  {
+    "id": "green-apple",
+    "name": "Green Apple",
+    "type": "Fruit",
+    "rarity": "Common"
+  },
+  {
+    "id": "artichoke",
+    "name": "Artichoke",
+    "type": "Vegetable",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "prickly-pear",
+    "name": "Prickly Pear",
+    "type": "Fruit",
+    "rarity": "Rare"
+  },
+  {
+    "id": "loquat",
+    "name": "Loquat",
+    "type": "Fruit",
+    "rarity": "Legendary"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "type": "Fruit",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "crown-melon",
+    "name": "Crown Melon",
+    "type": "Fruit",
+    "rarity": "Rare"
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "type": "Vegetable",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "cactus",
+    "name": "Cactus",
+    "type": "Other",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "cacao",
+    "name": "Cacao",
+    "type": "Other",
+    "rarity": "Rare"
+  },
+  {
+    "id": "pepper",
+    "name": "Pepper",
+    "type": "Vegetable",
+    "rarity": "Common"
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "type": "Vegetable",
+    "rarity": "Common"
+  },
+  {
+    "id": "lucky-bamboo",
+    "name": "Lucky Bamboo",
+    "type": "Other",
+    "rarity": "Legendary"
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "type": "Flower",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "type": "Fruit",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "daffodil",
+    "name": "Daffodil",
+    "type": "Flower",
+    "rarity": "Common"
+  },
+  {
+    "id": "celestiberry",
+    "name": "Celestiberry",
+    "type": "Fruit",
+    "rarity": "Divine"
+  }
+]

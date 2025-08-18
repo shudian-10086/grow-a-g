@@ -14,6 +14,7 @@ export interface Recipe {
   id: string // e.g., 'spaghetti'
   name: string
   category: 'Breakfast' | 'Main' | 'Dessert' | 'Snack' | 'Other'
+  image?: string // recipe image path, e.g., '/public/recipes-img/spaghetti.jpg'
   variants: RecipeVariant[]
   cravings?: string[] // wishlist tags that this recipe satisfies (placeholder)
   description?: string

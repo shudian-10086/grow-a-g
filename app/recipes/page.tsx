@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { RecipeCard } from '@/components/RecipeCard'
 import { Filters, type FilterState } from '@/components/Filters'
 import { SearchBox } from '@/components/SearchBox'
@@ -10,12 +10,15 @@ import { Card, CardContent } from '@/components/ui/card'
 import { DB } from '@/lib/data'
 import { simpleSearch } from '@/lib/search'
 import { Sparkles, Grid3X3, List, SortAsc, SortDesc } from 'lucide-react'
+import type { Recipe } from '@/types/recipe'
 
 type SortOption = 'name' | 'rarity' | 'variants' | 'ingredients'
 type SortDirection = 'asc' | 'desc'
 type ViewMode = 'grid' | 'list'
 
 export default function RecipesPage() {
+  const [recipes, setRecipes] = useState<Recipe[]>(DB.recipes) // 初始使用静态数据
+  const [loading, setLoading] = useState(false)
   const [filters, setFilters] = useState<FilterState>({
     search: '',
     categories: [],
@@ -28,24 +31,45 @@ export default function RecipesPage() {
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
   const [viewMode, setViewMode] = useState<ViewMode>('grid')
 
+  // 动态获取最新数据
+  useEffect(() => {
+    const fetchRecipes = async () => {
+      try {
+        setLoading(true)
+        const response = await fetch('/data/recipes.json')
+        if (response.ok) {
+          const data = await response.json()
+          setRecipes(data)
+        }
+      } catch (error) {
+        console.warn('Failed to fetch latest recipes data, using static data:', error)
+        // 保持使用静态数据作为fallback
+      } finally {
+        setLoading(false)
+      }
+    }
+    
+    fetchRecipes()
+  }, [])
+
   const filteredAndSortedRecipes = useMemo(() => {
-    let recipes = DB.recipes
+    let recipesData = recipes
 
     // Text search
     if (filters.search) {
-      recipes = simpleSearch(recipes, filters.search)
+      recipesData = simpleSearch(recipesData, filters.search)
     }
 
     // Category filter
     if (filters.categories.length > 0) {
-      recipes = recipes.filter(recipe => 
+      recipesData = recipesData.filter(recipe => 
         filters.categories.includes(recipe.category)
       )
     }
 
     // Rarity filter
     if (filters.rarities.length > 0) {
-      recipes = recipes.filter(recipe =>
+      recipesData = recipesData.filter(recipe =>
         recipe.variants.some(variant => 
           filters.rarities.includes(variant.rarity)
         )
@@ -54,7 +78,7 @@ export default function RecipesPage() {
 
     // Cook time filter
     if (filters.maxCookTime < 120) {
-      recipes = recipes.filter(recipe =>
+      recipesData = recipesData.filter(recipe =>
         recipe.variants.some(variant => 
           !variant.cookTimeMin || variant.cookTimeMin <= filters.maxCookTime
         )
@@ -65,11 +89,11 @@ export default function RecipesPage() {
     if (filters.onlyMakeable) {
       // Placeholder: filter based on user's ingredient collection
       // For now, return empty since we don't have user data
-      recipes = []
+      recipesData = []
     }
 
     // Sorting
-    recipes.sort((a, b) => {
+    recipesData.sort((a, b) => {
       let comparison = 0
       
       switch (sortBy) {
@@ -95,8 +119,8 @@ export default function RecipesPage() {
       return sortDirection === 'asc' ? comparison : -comparison
     })
 
-    return recipes
-  }, [filters, sortBy, sortDirection])
+    return recipesData
+  }, [recipes, filters, sortBy, sortDirection])
 
   const toggleSort = (option: SortOption) => {
     if (sortBy === option) {
@@ -152,7 +176,7 @@ export default function RecipesPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 bg-muted/50 rounded-lg">
             <div className="text-sm text-muted-foreground">
               Showing <span className="font-medium text-foreground">{filteredAndSortedRecipes.length}</span> of{' '}
-              <span className="font-medium text-foreground">{DB.recipes.length}</span> recipes
+              <span className="font-medium text-foreground">{recipes.length}</span> recipes
             </div>
             
             <div className="flex items-center gap-2 flex-wrap">
@@ -192,7 +216,7 @@ export default function RecipesPage() {
                 />
               ))}
             </div>
-          ) : DB.recipes.length === 0 ? (
+          ) : recipes.length === 0 ? (
             <Card className="p-12 text-center">
               <div className="space-y-4">
                 <Sparkles className="h-12 w-12 mx-auto text-muted-foreground opacity-50" />

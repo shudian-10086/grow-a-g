@@ -10,11 +10,15 @@ import { CopyIngredientsButton } from '@/components/CopyIngredientsButton'
 import { DB, getIngredientById, findRecipesUsingIngredient } from '@/lib/data'
 import { ArrowLeft, Timer, CheckCircle, AlertCircle, ChefHat, Sparkles, Users, Clock } from 'lucide-react'
 import type { Metadata } from 'next'
+import recipesData from '../../../data/recipes.json'
 
 export async function generateStaticParams() {
-  return DB.recipes.map((recipe) => ({
-    slug: recipe.id,
-  }))
+  // 顶层静态导入，确保构建和开发环境都能拿到完整列表
+  const list = recipesData as { id: string }[]
+  if (process.env.NODE_ENV !== 'production') {
+    console.log('[generateStaticParams] ids:', list.map(r => r.id))
+  }
+  return list.map((recipe) => ({ slug: recipe.id }))
 }
 
 interface Props {
@@ -22,7 +26,16 @@ interface Props {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const recipe = DB.recipes.find(r => r.id === params.slug)
+  // 尝试从动态数据获取，失败则使用静态数据
+  let recipes = DB.recipes
+  try {
+    const recipesData = (await import('../../../data/recipes.json')).default as any[]
+    recipes = recipesData
+  } catch (error) {
+    console.warn('Failed to load dynamic recipes data for metadata, using static data')
+  }
+  
+  const recipe = recipes.find(r => r.id === params.slug)
   
   if (!recipe) {
     return {
@@ -42,7 +55,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function RecipeDetailPage({ params }: Props) {
-  const recipe = DB.recipes.find(r => r.id === params.slug)
+  // 尝试从动态数据获取，失败则使用静态数据
+  let recipes = DB.recipes
+  try {
+    const recipesData = require('../../../data/recipes.json')
+    recipes = recipesData
+  } catch (error) {
+    console.warn('Failed to load dynamic recipes data, using static data')
+  }
+  
+  const recipe = recipes.find(r => r.id === params.slug)
   
   if (!recipe) {
     notFound()
@@ -58,7 +80,7 @@ export default function RecipeDetailPage({ params }: Props) {
   ).map(id => getIngredientById(id)).filter(Boolean)
 
   // Find related recipes that share ingredients
-  const relatedRecipes = DB.recipes
+  const relatedRecipes = recipes
     .filter(r => r.id !== recipe.id)
     .filter(r => 
       r.variants.some(variant =>
