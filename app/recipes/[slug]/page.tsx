@@ -121,7 +121,7 @@ export default function RecipeDetailPage({ params }: Props) {
           </div>
           
           <div>
-            <h1 className="text-4xl font-bold tracking-tight mb-3">{recipe.name}</h1>
+            <h1 className="text-4xl font-bold tracking-tight mb-3">{recipe.name} Recipes</h1>
             {recipe.description && (
               <p className="text-xl text-muted-foreground leading-relaxed">
                 {recipe.description}
