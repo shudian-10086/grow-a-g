@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'https://garden-recipes.com' : 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'https://g-a-g.netlify.app/' : 'https://g-a-g.netlify.app/'),
   openGraph: {
     title: 'Grow a Garden Cooking Recipes List',
     description: 'As part of the Grow a Garden cooking event, we\'ve compiled the recipes for every food item we\'ve discovered so far.',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: 'http://localhost:3000',
+    site: 'https://g-a-g.netlify.app/',
     title: 'Grow a Garden Cooking Recipes List',
     description: 'As part of the Grow a Garden cooking event, we\'ve compiled the recipes for every food item we\'ve discovered so far.',
     images: ['/gag-img.webp'],
@@ -89,7 +89,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className={inter.variable}>
       <head>
         <StructuredData />
-        <link rel="canonical" href="http://localhost:3000"/>
+        <link rel="canonical" href="https://g-a-g.netlify.app/"/>
       </head>
       <body className={inter.className}>
         <div className="min-h-screen bg-background">

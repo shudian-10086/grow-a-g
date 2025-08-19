@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://garden-recipes.com/sitemap.xml
+Sitemap: https://g-a-g.netlify.app/sitemap.xml

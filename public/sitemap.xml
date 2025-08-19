@@ -1,158 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://garden-recipes.com/</loc>
+    <loc>https://g-a-g.netlify.app/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes</loc>
+    <loc>https://g-a-g.netlify.app/recipes</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/ingredients</loc>
+    <loc>https://g-a-g.netlify.app/ingredients</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/cravings</loc>
+    <loc>https://g-a-g.netlify.app/cravings</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/privacy-policy</loc>
+    <loc>https://g-a-g.netlify.app/privacy-policy</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/terms-of-service</loc>
+    <loc>https://g-a-g.netlify.app/terms-of-service</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/changelog</loc>
+    <loc>https://g-a-g.netlify.app/changelog</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/guides</loc>
+    <loc>https://g-a-g.netlify.app/guides</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://garden-recipes.com/recipes/corn-dog</loc>
+    <loc>https://g-a-g.netlify.app/recipes/corn-dog</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/spaghetti</loc>
+    <loc>https://g-a-g.netlify.app/recipes/spaghetti</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/candy-apple</loc>
+    <loc>https://g-a-g.netlify.app/recipes/candy-apple</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/porridge</loc>
+    <loc>https://g-a-g.netlify.app/recipes/porridge</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/sweet-tea</loc>
+    <loc>https://g-a-g.netlify.app/recipes/sweet-tea</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/smoothie</loc>
+    <loc>https://g-a-g.netlify.app/recipes/smoothie</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/salad</loc>
+    <loc>https://g-a-g.netlify.app/recipes/salad</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/soup</loc>
+    <loc>https://g-a-g.netlify.app/recipes/soup</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/sandwich</loc>
+    <loc>https://g-a-g.netlify.app/recipes/sandwich</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/pie</loc>
+    <loc>https://g-a-g.netlify.app/recipes/pie</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/burger</loc>
+    <loc>https://g-a-g.netlify.app/recipes/burger</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/hot-dog</loc>
+    <loc>https://g-a-g.netlify.app/recipes/hot-dog</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/waffle</loc>
+    <loc>https://g-a-g.netlify.app/recipes/waffle</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/ice-cream</loc>
+    <loc>https://g-a-g.netlify.app/recipes/ice-cream</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/donut</loc>
+    <loc>https://g-a-g.netlify.app/recipes/donut</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/sushi</loc>
+    <loc>https://g-a-g.netlify.app/recipes/sushi</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/cake</loc>
+    <loc>https://g-a-g.netlify.app/recipes/cake</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garden-recipes.com/recipes/pizza</loc>
+    <loc>https://g-a-g.netlify.app/recipes/pizza</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
