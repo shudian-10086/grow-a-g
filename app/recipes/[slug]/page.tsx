@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${recipe.name} | Garden Recipes`,
+    title: `How to Make ${recipe.name} | Grow a Garden Recipes`,
     description: recipe.description || `Learn how to make ${recipe.name} using ingredients from your garden.`,
     openGraph: {
       title: `${recipe.name} Recipe`,
@@ -115,7 +115,7 @@ export default function RecipeDetailPage({ params }: Props) {
           </div>
           
           <div>
-            <h1 className="text-4xl font-bold tracking-tight mb-3">{recipe.name}</h1>
+            <h1 className="text-4xl font-bold tracking-tight mb-3">{recipe.name} Recipe</h1>
             {recipe.description && (
               <p className="text-xl text-muted-foreground leading-relaxed">
                 {recipe.description}

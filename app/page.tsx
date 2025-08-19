@@ -5,7 +5,12 @@ import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { SearchBox } from '@/components/SearchBox'
-import { RecipeCard } from '@/components/RecipeCard'
+import dynamic from 'next/dynamic'
+
+const RecipeCard = dynamic(() => import('@/components/RecipeCard').then(mod => mod.RecipeCard), {
+  loading: () => <p>加载食谱...</p>,
+});
+
 import { DB } from '@/lib/data'
 import { ChefHat, Leaf, Heart, TrendingUp, Search, Sparkles, ArrowRight, Star, Clock, Users } from 'lucide-react'
 import type { Recipe } from '@/types/recipe'
@@ -226,7 +231,7 @@ export default function Home() {
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-1">
                 <Sparkles className="h-4 w-4" />
-                <span>AI Powered</span>
+                <span>High accuracy                </span>
               </div>
               <div className="flex items-center gap-1">
                 <Heart className="h-4 w-4" />
