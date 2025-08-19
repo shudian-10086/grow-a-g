@@ -73,11 +73,11 @@ export default function RecipeDetailPage({ params }: Props) {
   // Get all unique ingredients used across variants
   const allIngredients = Array.from(
     new Set(
-      recipe.variants.flatMap(variant => 
-        variant.ingredients.map(ing => ing.id)
+      recipe.variants.flatMap((variant: any) => 
+        variant.ingredients.map((ing: any) => ing.id)
       )
     )
-  ).map(id => getIngredientById(id)).filter(Boolean)
+  ).map((id: string) => getIngredientById(id)).filter(Boolean)
 
   // Find related recipes that share ingredients
   const relatedRecipes = recipes
