@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${recipe.name} | Garden Recipes`,
+    title: `How To Make ${recipe.name} | Grow a Garden Cooking Recipes`,
     description: recipe.description || `Learn how to make ${recipe.name} using ingredients from your garden.`,
     openGraph: {
       title: `${recipe.name} Recipe`,
