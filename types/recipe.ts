@@ -1,13 +1,19 @@
 import type { Rarity, PotColor } from './rarity'
 
 export interface RecipeVariant {
-  rarity: Rarity
-  ingredients: { id: string; qty: number; orderSensitive?: boolean }[]
-  cookTimeMin?: number
-  potColor?: PotColor
-  notes?: string[] // order, restrictions, alternatives
-  verified?: boolean // data validation status (placeholder)
-  sources?: string[] // data source URLs (placeholder)
+  rarity: Rarity;
+  ingredients: IngredientItem[];
+  cookTimeMin?: number;
+  potColor?: PotColor;
+  notes?: string[]; // order, restrictions, alternatives
+  verified?: boolean; // data validation status (placeholder)
+  sources?: string[]; // data source URLs (placeholder)
+}
+
+export interface IngredientItem {
+  id: string;
+  qty: number;
+  orderSensitive?: boolean;
 }
 
 export interface Recipe {
